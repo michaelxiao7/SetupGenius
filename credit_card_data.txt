@@ -1,0 +1,593 @@
+{
+  "csp" : {
+    "name": "Chase Sapphire Preferred",
+    "rewards": {
+      "Flights": 5,
+      "Dining": 3,
+      "Online Groceries": 3,
+      "Streaming": 3,
+      "Lyft": 5,
+      "Peloton": 5,
+    },
+    "credits": {
+      "Instacart": 60,
+      "Hotels": 50,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 95,
+    "miles": True,
+  },
+  "csr" : {
+    "name": "Chase Sapphire Reserve",
+    "rewards": {
+      "Flights": 5,
+      "Hotels": 10,
+      "Dining": 3,
+      "Lyft": 10,
+      "Peloton": 10,
+    },
+    "credits": {
+      "Instacart": 60,
+      "Doordash": 60,
+      "Flights": 300,
+      "Global Entry/TSA Precheck": 25,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 550,
+    "priority_pass": True,
+    "miles": True,
+  },
+  "am" : {
+    "name": "Amazon Prime Visa",
+    "rewards": {
+      "Amazon": 5,
+      "Flights": 5,
+      "Gas": 2,
+      "Dining": 2,
+      "Transportation": 2,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "bce" : {
+    "name": "Amex Blue Cash Everyday",
+    "rewards": {
+      "Groceries": 3,
+      "Online Retail": 3,
+      "Gas": 3,
+    },
+    "credits": {
+      "Disney+": 84,
+      "Home Chef": 180,
+    },
+    "limits" : {
+      "Groceries": 6000,
+      "Online Retail": 6000,
+      "Gas": 6000,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "bcp" : {
+    "name": "Amex Blue Cash Preferred",
+    "rewards": {
+      "Groceries": 6,
+      "Streaming": 6,
+      "Transportation": 3,
+      "Gas": 3,
+    },
+    "credits": {
+      "Disney+": 84,
+      "Equinox": 120,
+    },
+    "limits" : {
+      "Groceries": 6000,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 95,
+  },
+  "green" : {
+    "name": "Amex Green",
+    "rewards": {
+      "Flights": 3,
+      "Transportation": 3,
+      "Dining": 3,
+    },
+    "credits": {
+      "Lounge": 100,
+      "Clear": 189,
+    },
+    "catch_all": 1,
+    "cb_convert": 0.6,
+    "annual_fee": 150,
+    "miles": True,
+  },
+  "gold" : {
+    "name": "Amex Gold",
+    "rewards": {
+      "Dining": 4,
+      "Groceries": 4,
+      "Flights": 3,
+    },
+    "credits": {
+      "Gold Dining (ShakeShack/Cheesecake/Grubhub)": 120,
+      "Uber": 120,
+    },
+    "catch_all": 1,
+    "cb_convert": 0.6,
+    "annual_fee": 250,
+    "miles": True,
+  },
+  "plat" : {
+    "name": "Amex Platinum",
+    "rewards": {
+      "Flights": 5,
+      "Hotels": 5,
+    },
+    "credits": {
+      "Hotels": 200,
+      "Streaming": 240,
+      "Walmart+": 155,
+      "Uber": 200,
+      "Incidental Airline": 200,
+      "Saks": 100,
+      "Equinox": 300,
+      "Global Entry/TSA Precheck": 25,
+      "Clear": 189,
+    },
+    "catch_all": 1,
+    "cb_convert": 0.6,
+    "annual_fee": 695,
+    "priority_pass": True,
+    "miles": True,
+  },
+  "bilt" : {
+    "name": "Bilt Mastercard",
+    "rewards": {
+      "Rent": 1,
+      "Flights": 2,
+      "Dining": 3,
+      "Lyft": 5,
+    },
+    "catch_all": 1,
+    "cb_convert": 0.6,
+    "annual_fee": 0,
+    "miles": True,
+  },
+  "usbag" : {
+    "name": "US Bank Altitude Go",
+    "rewards": {
+      "Dining": 4,
+      "Groceries": 2,
+      "Streaming": 2,
+      "Gas": 2,
+    },
+    "credits": {
+      "Streaming": 15,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "usbc-usi" : {
+    "name": "US Bank Cash+",
+    "rewards": {
+      "Utilities": 5,
+      "Streaming": 5,
+      "Internet": 5
+    },
+    "limits": {
+      "Utilities": 4000,
+      "Streaming": 2000,
+      "Internet": 2000,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "usbc-up" : {
+    "name": "US Bank Cash+",
+    "rewards": {
+      "Utilities": 5,
+      "Phone": 5,
+    },
+    "limits": {
+      "Utilities": 4000,
+      "Phone": 4000,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "usbc-up" : {
+    "name": "US Bank Cash+",
+    "rewards": {
+      "Utilities": 5,
+      "Gym": 5,
+    },
+    "limits": {
+      "Utilities": 4000,
+      "Gym": 4000,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "usbc-ut" : {
+    "name": "US Bank Cash+",
+    "rewards": {
+      "Utilities": 5,
+      "Transportation": 5,
+    },
+    "limits": {
+      "Utilities": 4000,
+      "Transportation": 4000,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "usbc-sip" : {
+    "name": "US Bank Cash+",
+    "rewards": {
+      "Streaming": 5,
+      "Internet": 5,
+      "Phone": 5,
+    },
+    "limits": {
+      "Streaming": 2000,
+      "Internet": 2000,
+      "Phone": 4000,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "usbc-sig" : {
+    "name": "US Bank Cash+",
+    "rewards": {
+      "Streaming": 5,
+      "Internet": 5,
+      "Gym": 5,
+    },
+    "limits": {
+      "Streaming": 2000,
+      "Internet": 2000,
+      "Gym": 4000,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "usbc-sit" : {
+    "name": "US Bank Cash+",
+    "rewards": {
+      "Streaming": 5,
+      "Internet": 5,
+      "Transportation": 5,
+    },
+    "limits": {
+      "Streaming": 2000,
+      "Internet": 2000,
+      "Transportation": 4000,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "usbc-pg" : {
+    "name": "US Bank Cash+",
+    "rewards": {
+      "Phone": 5,
+      "Gym": 5,
+    },
+    "limits": {
+      "Phone": 4000,
+      "Gym": 4000,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "usbc-pt" : {
+    "name": "US Bank Cash+",
+    "rewards": {
+      "Phone": 5,
+      "Transportation": 5,
+    },
+    "limits": {
+      "Phone": 4000,
+      "Transportation": 4000,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "usbc-gt" : {
+    "name": "US Bank Cash+",
+    "rewards": {
+      "Gym": 5,
+      "Transportation": 5,
+    },
+    "limits": {
+      "Gym": 4000,
+      "Transportation": 4000,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "usbac" : {
+    "name": "US Bank Altitude Connect",
+    "rewards": {
+      "Hotels": 5,
+      "Rental Car": 5,
+      "Gas": 4,
+      "Groceries": 2,
+      "Dining": 2,
+      "Streaming": 2,
+    },
+    "credits": {
+      "Streaming": 30,
+      "Global Entry/TSA Precheck": 25,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 95,
+  },
+  "usbar" : {
+    "name": "US Bank Altitude Reserve",
+    "rewards": {
+      "Hotels": 5,
+      "Flights": 3,
+    },
+    "credits": {
+      "Flights": 325,
+      "Global Entry/TSA Precheck": 25,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 400,
+    "priority_pass": True,
+  },
+  "ccc-dining": {
+    "name": "Citi Custom Cash",
+    "rewards": {
+      "Dining": 5,
+    },
+    "limits": {
+      "Dining": 6000
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Citi",
+  },
+  "ccc-gas": {
+    "name": "Citi Custom Cash",
+    "rewards": {
+      "Gas": 5,
+    },
+    "limits": {
+      "Gas": 6000
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Citi",
+  },
+  "ccc-groceries": {
+    "name": "Citi Custom Cash",
+    "rewards": {
+      "Groceries": 5,
+    },
+    "limits": {
+      "Groceries": 6000
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Citi",
+  },
+  "ccc-flights": {
+    "name": "Citi Custom Cash",
+    "rewards": {
+      "Flights": 5,
+    },
+    "limits": {
+      "Flights": 6000
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Citi",
+  },
+  "ccc-transportation": {
+    "name": "Citi Custom Cash",
+    "rewards": {
+      "Transportation": 5,
+    },
+    "limits": {
+      "Transportation": 6000
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Citi",
+  },
+  "ccc-streaming": {
+    "name": "Citi Custom Cash",
+    "rewards": {
+      "Streaming": 5,
+    },
+    "limits": {
+      "Streaming": 6000
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Citi",
+  },
+  "ccc-drug": {
+    "name": "Citi Custom Cash",
+    "rewards": {
+      "Drug Stores": 5,
+    },
+    "limits": {
+      "Drug Stores": 6000
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Citi",
+  },
+  "ccc-gym": {
+    "name": "Citi Custom Cash",
+    "rewards": {
+      "Gym": 5,
+    },
+    "limits": {
+      "Gym": 6000
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Citi",
+  },
+  "ccc-entertainment": {
+    "name": "Citi Custom Cash",
+    "rewards": {
+      "Entertainment": 5,
+    },
+    "limits": {
+      "Entertainment": 6000
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Citi",
+  },
+  "cpc" : {
+    "name": "Citi Premier",
+    "rewards": {
+      "Dining": 3,
+      "Groceries": 3,
+      "Gas": 3,
+      "Flights": 3,
+      "Hotels": 3,
+    },
+    "credits": {
+      "Hotels": 100,
+      "Global Entry/TSA Precheck": 25,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 95,
+    "miles": True,
+    "trifecta": "Citi",
+  },
+  "s1" : {
+    "name": "Capital One Savor One",
+    "rewards": {
+      "Hotels": 5,
+      "Rental Car": 5,
+      "Dining": 3,
+      "Groceries": 3,
+      "Entertainment": 3,
+      "Streaming": 3,
+      "Uber": 10,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Capital One",
+  },
+  "wfa" : {
+    "name": "Wells Fargo Autograph",
+    "rewards": {
+      "Dining": 3,
+      "Flights": 3,
+      "Gas": 3,
+      "Transportation": 3,
+      "Streaming": 3,
+      "Phone": 3,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "vx" : {
+    "name": "Capital One Venture X",
+    "rewards": {
+      "Hotels": 10,
+      "Flights": 5,
+    },
+    "credits": {
+      "Flights": 300,
+      "Global Entry/TSA Precheck": 25,
+    },
+    "catch_all": 2,
+    "cb_convert": 0.5,
+    "annual_fee": 395,
+    "priority_pass": True,
+    "miles": True,
+  },
+  "2x" : {
+    "name": "Active Cash, Double Cash, Blue Business Cash etc.",
+    "rewards": {
+      "Misc": 2,
+    },
+    "catch_all": 2,
+    "cb_convert": 1,
+    "annual_fee": 0,
+  },
+  "bbp" : {
+    "name": "Amex Blue Business Plus",
+    "rewards": {
+      "Misc": 2,
+    },
+    "catch_all": 2,
+    "cb_convert": 0.6,
+    "annual_fee": 0,
+    "miles": True,
+  },
+  "2x" : {
+    "name": "Citi Double Cash",
+    "rewards": {
+      "Misc": 2,
+    },
+    "catch_all": 2,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Citi",
+  },
+  "cff" : {
+    "name": "Chase Freedom Flex",
+    "rewards": {
+      "Dining": 3,
+      "Flights": 5,
+      "Drug Stores": 3,
+    },
+    "catch_all": 1,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Chase",
+  },
+  "cfu" : {
+    "name": "Chase Freedom Unlimited",
+    "rewards": {
+      "Dining": 3,
+      "Flights": 5,
+      "Drug Stores": 3,
+    },
+    "catch_all": 1.5,
+    "cb_convert": 1,
+    "annual_fee": 0,
+    "trifecta": "Chase",
+  },
+}
