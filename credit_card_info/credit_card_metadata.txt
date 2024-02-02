@@ -7,7 +7,6 @@
       "Online Groceries": 3,
       "Streaming": 3,
       "Lyft": 5,
-      "Peloton": 5,
     },
     "credits": {
       "Instacart": 60,
@@ -25,7 +24,6 @@
       "Hotels": 10,
       "Dining": 3,
       "Lyft": 10,
-      "Peloton": 10,
     },
     "credits": {
       "Instacart": 60,
