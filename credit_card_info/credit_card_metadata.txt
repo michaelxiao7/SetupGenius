@@ -554,7 +554,7 @@
     "annual_fee": 0,
     "miles": True,
   },
-  "2x" : {
+  "cdc" : {
     "name": "Citi Double Cash",
     "rewards": {
       "Misc": 2,

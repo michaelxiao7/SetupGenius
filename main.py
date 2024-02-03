@@ -79,7 +79,7 @@ def print_best_setup(best_setup):
             f"Annual Rewards Value: ${round(best_setup['cards'][card][0], 2)}\n" \
             f"Categories: {', '.join([category[0] for category in best_setup['cards'][card][1]])}\n\n")
 
-    print(f"Total Rewards: ${total_rewards}\n"\
+    print(f"Total Rewards (After Fees): ${total_rewards}\n"\
         f"Total Annual Fee: ${annual_fee}\n"\
         f"Total Return on Spend: {int(100 * total_rewards / total_spend )}%\n")
     
